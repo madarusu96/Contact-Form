@@ -1,0 +1,50 @@
+#container{
+    
+    border: 1px solid black;
+     display: flex;
+    padding: 3%;  
+}
+
+main{
+   
+    align-items: center;
+    justify-content: center;
+    margin:100px;
+}
+img{
+    width: 150px;
+    flex:1;
+}
+form{
+    flex:2;
+}
+
+#subhead1{
+    color:red;
+}
+
+
+#banner{
+    
+    display: none; 
+    height: 35px;
+    align-items: center;
+    background-color: #def0d9;
+    margin-bottom: 10px;
+}
+#checkmark {
+    flex:1;
+    align-items: flex-start;
+    width: 25px;
+    height: 25px;
+}
+#bannerName{
+    flex:30;
+
+}
+
+#close{
+   flex:1;
+   width:25px;
+   height: 25px;
+}

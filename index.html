@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form Contact</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+
+
+        <main>
+            <div id="banner">
+                <!--             
+                                <div id="message-content"> -->
+                                <img  id= "checkmark" src="check.png" >
+                                <p id="bannerName">Thank you for contacting us</p>
+                                
+                                <img id="close" src="close.png" >  
+                                <!-- </div> -->
+                        </div>
+
+        <div id="container">
+           
+        <form id="form" onsubmit=" return false" >
+            <div id="input1">
+                
+                <input id="first_name" name="first_name" type="text" placeholder="Your First Name">
+                <header id="subhead1"></header> </br> <br>
+                
+            </div>
+            <div id="input2">
+                
+                <input id="last_name" name="last_name" type="text" placeholder="Your Last Name">
+                <header id="subhead2"></header>
+            </div>
+            
+            <div>
+                <p>Gender </p>
+                
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">M</label><br>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">F</label><br>
+                    <p id="eText"></p>
+            </div> <br>
+            <div>
+                <textarea id="textarea" rows="4" cols="50" placeholder="Your Message here..." ></textarea>
+            </div>
+            <button type="submit" id="submit">Submit</button>
+        </form>
+        <div>
+            <img src="img1.png">
+        </div>
+        </div>
+    </main>
+    </body>
+    <script src="app.js"></script>
+</html>
